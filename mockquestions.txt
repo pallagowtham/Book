@@ -1,0 +1,51 @@
+1.Its procedure is to invoke automatically in database where an event occurs.for example it invoked when row is inserted into a table or columns being updating.
+
+2.It is used to convert datatypes into objects as well as convert strings into datatypes.
+
+3.StringBuffer is synchronized.It means two threads can't call the methods of StringBuffer simultaneously.It is thread safe.
+StringBuilder is non-synchronized.It means two threads can call the methods of StringBuilder simultaneously.It is not thread safe.
+
+4.A List interface can contain duplicate values.It follows an order sequence.It allows number of null values.
+  The Set interface cannot contain duplicate values.It doesnot follows an order sequence.It allows single number of null values.
+
+5.checked exceptions are used at compile time.Examplies like IO exception.
+  unchecked exceptions are not used at compile time.It uses as runtime.Examples like Null pointer exception.
+
+6.statement used for executing string-based sql queries for only once and prepared statement is used for executing parameterized sql queries for multiple times.
+6.1.Javascript is an independent language and it takes more time consuming.The code can be long.Jquery is less time consuming.It depends on the javascript as it is a library of js.It contains only few lines of code.
+6.2.var and let both used as variable declaration in javascript.The difference between them is var is function and let is a block and var is defined as variable in js.
+6.3.ID and class selector used in CSS and the main difference is class selector defined as fullstop(.) and Id selector defined as hash(#).class is used to specify more than one element and Id specify one particular element only.
+6.4.Procedure is used to specify commands to be executed in order and fuction is used to calculate about a given input.
+
+8.By using generics we cam maximize of reuse code and performance and safety.It is mainly used in collection classes like Array list<>.
+
+9.java8 methods and classes are lambda expressions,functional interface,stream API,method references,default and static methods.
+  java7 features are bineary literals,string in switch statement,try with resources.
+
+10.state management database mainly used in large scale applications for making the architecure and quality of code better.It is used as for optimizing better performance and storage device as well.It is an alternative to cache state data in memory for reducing the amount of runtime memory.
+
+11.jsptags are useBean.include.setProperty.getProperty.forward.plugin.attribute.body.
+   jstl tags are core,functiona,formatting,sql and xml tags.
+
+12.Model and view controller used as design pattern used for developing interfaces that divides the program logic into elements.
+
+13.The @Qualifier annotation is used to resolve the autowiring conflict when there are multiple beans of same type.It can be used on any class annotated with @Component or on methods annotated with @Bean .
+
+14.cost and shared in-time configuration?
+
+15.Html 5 features are Nav tag,Progress tag,Placeholder, AttributeEmail, attributeStorage,Ease of us.
+   Html 6 features are Camera Integration. Pluggable Pre-processors.Pluggable Languages. Better Annotation. Hardened Authentication. More Control over Video Object. Stronger Micro-formats.
+
+16.CSS selectors are Simple selectors, Combinator selectors,Pseudo-class selectors, Pseudo-elements selectors.
+
+17.StudentServlet class will define as a Controller class and we have to create a student-record.jsp page. That servlet act as the controller of our web application and then Controller forwards the request and response objects to a JSP to view the application.
+
+18.The advantages of spring are it is a light weight and open source-tool.It provides Inversion of control and dependency injection for providing loose coupling.It aslo supports jdbc framework that improves productivity and reduces error.
+
+19.Inversion of control is used to instantiate the application class and to configure the object.It is also used for assemble the dependencies between the objects.
+
+20.By using Spring Boot it is easy to create stand-alone and Spring-based applications. It provides various starters for building standalone or more traditional war deployments.
+There are five bean scopes in spring .singleton, prototype,request,session,global-session.In default scope bean instance will be only once and same instance will be returned by the IOC container.It is created each time when requested as per HTTP request.
+
+21.
+
